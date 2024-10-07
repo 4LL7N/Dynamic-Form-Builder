@@ -1,0 +1,51 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#build{
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+
+.formComponent{
+  width: 200px;
+}
+
+.container{
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-box{
+  flex-grow: 1;
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  gap:20px;
+  height: 100%;
+}
+
+.preview{
+  display: flex;
+  flex-grow: 1;
+  justify-items: center;
+}
+
+.component{
+  height: 43px;
+  display: inline-block;
+}
+
+.previewForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
